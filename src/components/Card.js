@@ -5,10 +5,15 @@ export default function Card(props) {
         <div className="card">
             <div className="card-details">
                 <div className="card-location">
+                    <img/>
+                    {props.item.location}
+                    View on Google Maps
                     <div className="card-title">
-                        <span>{props.item.title}</span>
+                        {props.item.title}
                     </div>
                 </div>
+                {props.item.date}
+                {props.item.desc}
             </div>
 
             <div className="card-img">
