@@ -2,10 +2,15 @@ import React from "react";
 
 export default function Card(props) {
     return (
+        <>
         <div className="card">
+            
+            <img className="card-img" src={props.item.coverImg}/>
+           
+            
             <div className="card-details">
                 <div className="card-location">
-                    <img/>
+                    <img className="image-location" src="/locationtag.png"/>
                     {props.item.location}
                     View on Google Maps
                     <div className="card-title">
@@ -14,11 +19,12 @@ export default function Card(props) {
                 </div>
                 {props.item.date}
                 {props.item.desc}
+                
             </div>
 
-            <div className="card-img">
-
-            </div>
+            
         </div>
+        <hr/>
+        </>
     )
 }

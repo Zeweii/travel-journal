@@ -1,28 +1,27 @@
 export default [
     {
         id: 1,
-        location: "loc", 
+        location: "JAPAN", 
         title: "title" ,
         date: "date"  ,
         description: "desc",
-        coverImg: "link" ,
-
+        coverImg: "https://source.unsplash.com/WLxQvbMyfas" ,
     },
     {
         id: 2,
-        location: "loc", 
+        location: "AUSTRALIA", 
         title: "title" ,
         date: "date"  ,
         description: "desc",
-        coverImg: "link" ,
+        coverImg: "https://source.unsplash.com/JmuyB_LibRo" ,
 
     },{
         id: 3,
-        location: "loc", 
+        location: "US", 
         title: "title" ,
         date: "date"  ,
         description: "desc",
-        coverImg: "link" ,
+        coverImg: "https://source.unsplash.com/3PeSjpLVtLg" ,
 
     }
 ]
