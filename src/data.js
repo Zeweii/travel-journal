@@ -5,6 +5,7 @@ export default [
         title: "title" ,
         date: "date"  ,
         description: "desc",
+        mapsLink: "https://goo.gl/maps/RR2NFRiXTV8yMshv7",
         coverImg: "https://source.unsplash.com/WLxQvbMyfas" ,
     },
     {
@@ -13,6 +14,7 @@ export default [
         title: "title" ,
         date: "date"  ,
         description: "desc",
+        mapsLink: "https://goo.gl/maps/RR2NFRiXTV8yMshv7",
         coverImg: "https://source.unsplash.com/JmuyB_LibRo" ,
 
     },{
@@ -21,6 +23,7 @@ export default [
         title: "title" ,
         date: "date"  ,
         description: "desc",
+        mapsLink: "https://goo.gl/maps/RR2NFRiXTV8yMshv7",
         coverImg: "https://source.unsplash.com/3PeSjpLVtLg" ,
 
     }

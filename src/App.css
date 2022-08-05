@@ -9,25 +9,8 @@
   pointer-events: none;
 }
 
-.card-img {
-    /* margin-left: 10px; */
-    width: 220px;
-    height: 250px;
-    border-radius: 5px;
-    object-fit: cover;
-}
-
-.card {
-    justify-content: center;
-    display:flex;
-    /* width: 800px; */
-    /* align-items: center; */
-    position: static;
-    
-}
-
 .banner {
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     background: #1abc9c;
     color: white; 
@@ -43,6 +26,7 @@
 
 .site-name {
     font-size: 30px;
+    font-weight: 500;
     font-family:'Trebuchet MS', sans-serif;
 }
 
@@ -56,6 +40,64 @@ hr {
 
 .image-location {
     width: 3%;
+    margin-right: 8px;
+}
+
+.img-logo {
+    width: 2%;
+    margin-right: 20px;
+    margin-top: 5px;
+    color: #f2f2f2;
+}
+
+.card-img {
+    /* margin-left: 10px; */
+    width: 220px;
+    height: 250px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.card {
+    justify-content: center;
+    display: flex;
+    width: 800px;
+    margin-left: 615px;
+    position: relative;
     
+}
+
+.card-location {
+    letter-spacing: 3px; 
+    font-family: Inter, sans-serif;
+}
+
+.card-body {
     
+}
+
+.card-details {
+    padding-top: 15px;
+    margin-left: 20px;  
+}
+
+.card-title {
+    font-size: 50px;
+}
+
+.card-date {
+    margin-top: 20px;
+}
+
+.card-description {
+    margin-top: 15px;
+}
+
+.maps-location {
+    float: right;
+    letter-spacing: 0;
+}
+
+props.item.location {
+    letter-spacing: 10px;
 }
